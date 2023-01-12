@@ -13,9 +13,14 @@ body {
 header {
     height: 10vh;
     min-height: 60px;
-    display: flex;
+    
     background-color: white;
+    display: flex;
+    justify-content: space-between;
+    
+    
 }
+
 
 
 
@@ -35,8 +40,8 @@ main {
 }
 
 .grid {
-    width: 80vh;
-    height: 80vh;
+    width: 75vh;
+    height: 75vh;
     margin: 0 auto;
     border: 1px solid black;
     display: flex;

@@ -16,10 +16,12 @@ play.addEventListener("click", function() {
     
             field.addEventListener("click", function() {
                 this.classList.add("active");
+                console.log(this.innerText);
                 }
             )
 
             field.innerHTML = field.innerHTML + i;
+            
         
         }
     
